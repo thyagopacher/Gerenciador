@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://academico.engsupport.eti.br/servicos/cidades.asmx?WSDL" uri="xml-resources/web-service-references/cidades/wsdl/academico.engsupport.eti.br/servicos/cidades.asmx.wsdl"/>
+    <system systemId="https://iss.pontagrossa.pr.gov.br" uri="xml-resources/web-service-references/iss.pontagrossa.pr.gov/wsdl/iss.pontagrossa.pr.gov.br/error/e403.xml"/>
+    <system systemId="https://c.knu.com.br/webservice" uri="xml-resources/web-service-references/webservice/wsdl/c.knu.com.br/webservice.xsd"/>
+    <system systemId="http://www.bindingpoint.com/ws/imalert/imalert.asmx?wsdl" uri="xml-resources/web-service-references/imalert/wsdl/www.bindingpoint.com/ws/imalert/imalert.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.net/geoipservice.asmx?WSDL" uri="wsdl/www.webservicex.net/geoipservice.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.net/genericbarcode.asmx?WSDL" uri="wsdl/www.webservicex.net/genericbarcode.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.net/braille.asmx?WSDL" uri="wsdl/www.webservicex.net/braille.asmx.wsdl"/>
+    <system systemId="https://iss.pontagrossa.pr.gov.br/Homologacao/Services.asmx" uri="wsdl/iss.pontagrossa.pr.gov.br/error/e403.xml"/>
+    <system systemId="https://iss.pontagrossa.pr.gov.br/Homologacao/Services.asmx?WSDL" uri="wsdl/iss.pontagrossa.pr.gov.br/error/e403.xml"/>
+    <system systemId="file:/C:/Users/ThyagoHenrique/Documents/NetBeansProjects/Gerenciador/Services.asmx" uri="wsdl/Services.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.net/country.asmx?WSDL" uri="wsdl/www.webservicex.net/country.asmx.wsdl"/>
+    <system systemId="file:/home/thyago/.netbeans/8.0/config/WebServices/SMSAlerts4/catalog/ws.strikeiron.com/SMSAlerts4.wsdl" uri="wsdl/SMSAlerts4.wsdl"/>
+    <system systemId="http://www.webservicex.net/sendsmsworld.asmx?WSDL" uri="wsdl/www.webservicex.net/sendsmsworld.asmx.wsdl"/>
+</catalog>

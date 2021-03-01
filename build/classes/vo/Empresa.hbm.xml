@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Empresa" table="EMPRESA">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <property name="cnpj" type="string">
+            <column name="CNPJ" length="20" />
+        </property>
+        <property name="razaosocial" type="string">
+            <column name="RAZAOSOCIAL" length="100" />
+        </property>
+        <property name="fantasia" type="string">
+            <column name="FANTASIA" length="100" />
+        </property>
+        <property name="abertura" type="date">
+            <column name="ABERTURA" length="10" />
+        </property>
+        <property name="smtp" type="string">
+            <column name="SMTP" length="100" />
+        </property>
+        <property name="pop3" type="string">
+            <column name="POP3" length="100" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="30" />
+        </property>
+        <property name="senha" type="string">
+            <column name="SENHA" length="30" />
+        </property>
+        <property name="portasmtp" type="java.lang.int">
+            <column name="PORTASMTP" />
+        </property>
+        <property name="portapop3" type="java.lang.int">
+            <column name="PORTAPOP3" />
+        </property>
+        <property name="tipo" type="string">
+            <column name="TIPO" length="20" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

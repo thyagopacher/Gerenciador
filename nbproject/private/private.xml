@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Java Desktop">
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFServico.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Email.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/tabelas/TableModelVenda.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFBanco.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFSobre.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Codificacao.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Imagem.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/ServicoWeb.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/persistencia/CargoPers.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Validacao.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFCargo.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/tabelas/TableModelBanco.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/PagSeguro.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFComandoSql.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Compactado.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFRastreamentoCorreios.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Calculadora.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFProcurarProduto.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFFormaPagamento.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/tabelas/TableModelCargo.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/JFClima.java</file>
+            <file>file:/C:/Users/ThyagoPacher/Documents/NetBeansProjects/Gerenciador/src/visao/recursos/utilitarios/Upload.java</file>
+        </group>
+        <group>
+            <file>file:/home/thyago/Documentos/Gerenciador/src/visao/JFPrincipal.java</file>
+            <file>file:/home/thyago/Documentos/Gerenciador/src/visao/JFDicionario.java</file>
+            <file>file:/home/thyago/Documentos/Gerenciador/src/visao/recursos/utilitarios/Relatorio.java</file>
+        </group>
+        <group name="Projetos Java Desktop">
+            <file>file:/home/thyago/Documentos/Gerenciador/src/relatorio/RProduto.jrxml</file>
+            <file>file:/home/thyago/Documentos/Gerenciador/src/visao/recursos/utilitarios/Relatorio.java</file>
+        </group>
+    </open-files>
+</project-private>

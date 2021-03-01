@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Acesso" table="ACESSO">
+        <id name="codigo" type="type="integer"">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Produto" table="PRODUTO">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <property name="nome" type="string">
+            <column name="NOME" length="100" />
+        </property>
+        <property name="codigobarra" type="string">
+            <column name="CODIGOBARRA" length="100" />
+        </property>
+        <property name="largura" type="double">
+            <column name="LARGURA" precision="15" scale="0" />
+        </property>
+        <property name="comprimento" type="double">
+            <column name="COMPRIMENTO" precision="15" scale="0" />
+        </property>
+        <property name="altura" type="double">
+            <column name="ALTURA" precision="15" scale="0" />
+        </property>
+        <property name="peso" type="double">
+            <column name="PESO" precision="15" scale="0" />
+        </property>
+        <property name="custo" type="double">
+            <column name="CUSTO" precision="15" scale="0" />
+        </property>
+        <property name="venda" type="double">
+            <column name="VENDA" precision="15" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

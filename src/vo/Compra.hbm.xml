@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Compra" table="COMPRA">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <many-to-one name="pessoa" class="vo.Pessoa" fetch="select">
+            <column name="CODPESSOA" />
+        </many-to-one>
+        <property name="dtcompra" type="date">
+            <column name="DTCOMPRA" length="10" />
+        </property>
+        <property name="dtvencimento" type="date">
+            <column name="DTVENCIMENTO" length="10" />
+        </property>
+        <property name="parcela" type="java.lang.int">
+            <column name="PARCELA" />
+        </property>
+        <set name="itenscompras" table="ITENSCOMPRA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODCOMPRA" />
+            </key>
+            <one-to-many class="vo.Itenscompra" />
+        </set>
+        <set name="itenscompras_1" table="ITENSCOMPRA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODCOMPRA" />
+            </key>
+            <one-to-many class="vo.Itenscompra" />
+        </set>
+    </class>
+</hibernate-mapping>

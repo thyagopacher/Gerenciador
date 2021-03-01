@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Pais" table="PAIS">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <property name="nome" type="string">
+            <column name="NOME" length="100" />
+        </property>
+        <property name="sigla" type="string">
+            <column name="SIGLA" length="100" />
+        </property>
+        <property name="moeda" type="string">
+            <column name="MOEDA" length="10" />
+        </property>
+        <property name="milhar" type="string">
+            <column name="MILHAR" length="10" />
+        </property>
+        <property name="decimal" type="string">
+            <column name="DECIMAL" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

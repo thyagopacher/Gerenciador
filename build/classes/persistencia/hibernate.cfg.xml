@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.FirebirdDialect</property>
+    <property name="hibernate.connection.driver_class">org.firebirdsql.jdbc.FBDriver</property>
+    <property name="hibernate.connection.url">jdbc:firebirdsql://localhost:3050/C:/banco/gerenciador.fdb</property>
+    <property name="hibernate.connection.username">sysdba</property>
+    <property name="hibernate.connection.password">masterkey</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <mapping resource="vo/Conta.hbm.xml"/>
+    <mapping resource="vo/Formapagamento.hbm.xml"/>
+    <mapping resource="vo/Pais.hbm.xml"/>
+    <mapping resource="vo/Itenscompra.hbm.xml"/>
+    <mapping resource="vo/Itensvenda.hbm.xml"/>
+    <mapping resource="vo/Compra.hbm.xml"/>
+    <mapping resource="vo/Imagem.hbm.xml"/>
+    <mapping resource="vo/Venda.hbm.xml"/>
+    <mapping resource="vo/Banco.hbm.xml"/>
+    <mapping resource="vo/Ftp.hbm.xml"/>
+    <mapping resource="vo/Empresa.hbm.xml"/>
+    <mapping resource="vo/Pessoa.hbm.xml"/>
+    <mapping resource="vo/Servico.hbm.xml"/>
+    <mapping resource="vo/Imposto.hbm.xml"/>
+    <mapping resource="vo/Cargo.hbm.xml"/>
+    <mapping resource="vo/Produto.hbm.xml"/>
+    <mapping resource="vo/Acesso.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

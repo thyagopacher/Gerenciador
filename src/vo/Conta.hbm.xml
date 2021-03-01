@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Conta" table="CONTA">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <property name="nome" type="string">
+            <column name="NOME" length="50" />
+        </property>
+        <property name="data" type="date">
+            <column name="DATA" length="10" />
+        </property>
+        <property name="situacao" type="string">
+            <column name="SITUACAO" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

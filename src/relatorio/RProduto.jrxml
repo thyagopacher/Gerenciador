@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RProduto" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="40385021-c0d6-42f0-a424-1fc6762778ee">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="filtrotipopessoa" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="77" splitType="Stretch">
+			<line>
+				<reportElement uuid="12487c1c-eda9-453e-a676-75085da91ce0" x="0" y="75" width="555" height="2"/>
+			</line>
+			<staticText>
+				<reportElement uuid="b4c328af-100a-4fbe-ba54-87d1279c6cd3" x="151" y="0" width="91" height="25"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Relatório de]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="74245b84-d1f4-4202-9413-eda379851ead" x="242" y="0" width="160" height="25"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{filtrotipopessoa}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="3668a6e1-bda6-4a6d-9984-669b03f87a66" x="455" y="5" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f65353b5-f221-4d12-85b1-bcfb28f116bb" x="455" y="55" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b881af6e-bb63-4bbb-b6b4-cca6efb56290" x="117" y="35" width="44" height="20"/>
+				<textElement/>
+				<text><![CDATA[Filtro de:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="be0961c1-9c0b-45d3-8541-c4f2a9647136" x="161" y="35" width="44" height="20"/>
+				<textElement>
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3460955c-65ec-47bc-9fb5-399eb72f0bd4" x="219" y="35" width="44" height="20"/>
+				<textElement/>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2484561-0681-4c43-9e5d-14f98531b69f" x="205" y="35" width="14" height="20"/>
+				<textElement/>
+				<text><![CDATA[à]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="910a09fe-2e35-4b51-b090-972f2369500f" x="0" y="0" width="36" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="afc7f426-4e52-49fb-94d0-d2c3d2d13b61" x="36" y="0" width="169" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0710aefe-f549-4089-b43d-0f0b7106ac52" x="205" y="0" width="58" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Preço]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8e91e1fd-f7f7-4ba5-a8e0-e72e988b4718" x="321" y="0" width="234" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Grupo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f67eac58-4d73-4855-8777-eaf384f5e606" x="263" y="0" width="58" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Custo]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="40" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<line>
+				<reportElement uuid="9d73f926-f4a1-42a0-925c-bb7138b92260" x="0" y="0" width="555" height="2"/>
+			</line>
+			<staticText>
+				<reportElement uuid="ae7fc034-dcdc-4f62-90a8-79b5b248e043" x="151" y="19" width="68" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Empresa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3b18f315-5201-4c90-82ba-a054f6699879" x="219" y="19" width="236" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tal]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

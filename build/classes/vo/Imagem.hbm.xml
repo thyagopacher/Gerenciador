@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Imagem" table="IMAGEM">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <property name="nome" type="string">
+            <column name="NOME" length="100" />
+        </property>
+        <property name="caminho" type="string">
+            <column name="CAMINHO" length="0" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection/>
+  <table-filter match-name="ACESSO"/>
+  <table-filter match-name="CARGO"/>
+  <table-filter match-name="FTP"/>
+  <table-filter match-name="ITENSCOMPRA"/>
+  <table-filter match-name="FORMAPAGAMENTO"/>
+  <table-filter match-name="PESSOA"/>
+  <table-filter match-name="PAIS"/>
+  <table-filter match-name="BANCO"/>
+  <table-filter match-name="CONTA"/>
+  <table-filter match-name="ITENSVENDA"/>
+  <table-filter match-name="SERVICO"/>
+  <table-filter match-name="PRODUTO"/>
+  <table-filter match-name="COMPRA"/>
+  <table-filter match-name="IMAGEM"/>
+  <table-filter match-name="IMPOSTO"/>
+  <table-filter match-name="VENDA"/>
+  <table-filter match-name="EMPRESA"/>
+</hibernate-reverse-engineering>

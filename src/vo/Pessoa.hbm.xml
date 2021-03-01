@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2013 20:22:50 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="vo.Pessoa" table="PESSOA">
+        <id name="codigo" type="integer">
+            <column name="CODIGO" />
+            <generator class="increment" />
+        </id>
+        <many-to-one name="cargo" class="vo.Cargo" fetch="select">
+            <column name="CODCARGO" />
+        </many-to-one>
+        <property name="nascimento" type="date">
+            <column name="NASCIMENTO" length="10" />
+        </property>
+        <property name="telefone" type="string">
+            <column name="TELEFONE" length="50" />
+        </property>
+        <property name="nome" type="string">
+            <column name="NOME" length="100" />
+        </property>
+        <property name="cpf" type="string">
+            <column name="CPF" length="20" unique="true" />
+        </property>
+        <property name="rg" type="string">
+            <column name="RG" length="20" unique="true" />
+        </property>
+        <property name="login" type="string">
+            <column name="LOGIN" length="30" />
+        </property>
+        <property name="senha" type="string">
+            <column name="SENHA" length="20" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="250" />
+        </property>
+        <property name="pai" type="string">
+            <column name="PAI" length="100" />
+        </property>
+        <property name="mae" type="string">
+            <column name="MAE" length="100" />
+        </property>
+        <property name="tipologradouro" type="string">
+            <column name="TIPOLOGRADOURO" length="100" />
+        </property>
+        <property name="logradouro" type="string">
+            <column name="LOGRADOURO" length="100" />
+        </property>
+        <property name="bairro" type="string">
+            <column name="BAIRRO" length="100" />
+        </property>
+        <property name="cidade" type="string">
+            <column name="CIDADE" length="100" />
+        </property>
+        <property name="estado" type="string">
+            <column name="ESTADO" length="10" />
+        </property>
+        <property name="cep" type="string">
+            <column name="CEP" length="100" />
+        </property>
+        <property name="celular" type="string">
+            <column name="CELULAR" length="50" />
+        </property>
+        <property name="complemento" type="string">
+            <column name="COMPLEMENTO" length="100" />
+        </property>
+        <property name="num" type="string">
+            <column name="NUM" length="10" />
+        </property>
+        <set name="compras" table="COMPRA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODPESSOA" />
+            </key>
+            <one-to-many class="vo.Compra" />
+        </set>
+        <set name="vendas" table="VENDA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODPESSOA" />
+            </key>
+            <one-to-many class="vo.Venda" />
+        </set>
+        <set name="vendas_1" table="VENDA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODPESSOA" />
+            </key>
+            <one-to-many class="vo.Venda" />
+        </set>
+        <set name="compras_1" table="COMPRA" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CODPESSOA" />
+            </key>
+            <one-to-many class="vo.Compra" />
+        </set>
+    </class>
+</hibernate-mapping>

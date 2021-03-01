@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	
+    :: Erro de autenticação de certificado digital ::
+
+</title><link rel="stylesheet" type="text/css" href="../Content/themes/overcast/jquery-ui-1.8.5.custom.css" /><link href="../Content/master.css" rel="stylesheet" type="text/css" /><link href="../Content/style.css" rel="stylesheet" type="text/css" /><link href="../Content/Fintel.css" rel="stylesheet" type="text/css" /><link href="../Content/erro.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo">
+                
+                   <div id="logoSistema" alt="Página Inicial" title="Página inicial" onclick="window.location='/'">
+                </div>
+                                   
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="page" style="width: 100%">
+            
+    <div class="error">
+        <h1>
+            Erro de autenticação de certificado digital. (Código: 403)</h1>
+        <p>
+            É necessário que o certificado digital seja informado para realizar o acesso ao
+            sistema de forma segura.</p>
+        <div>
+            <p>
+                Se não foi exibido uma janela pedindo para que informe o certificado que deverá
+                ser utilizado nesta conexão, por favor verifique se seu certificado digital está
+                instalado corretamente.<br />
+                Para acesso de forma segura é necessário que as novas cadeias de certificados estejam
+                instaladas em seu computador. Para instalá-las, acesse os três links:</p>
+            <div>
+                <h3 style="font-size: 13px">
+                    Cadeia de Certificados SERASA CD v2 (Válida a partir de 01/01/2012)</h3>
+                <ul>
+                    <li><a title="http://publicacao.certificadodigital.com.br/suporte/acraizv2.cer" href="http://publicacao.certificadodigital.com.br/suporte/acraizv2.cer">
+                        Autoridade Certificadora Raiz Brasileira v2 </a></li>
+                    <li><a title="http://publicacao.certificadodigital.com.br/suporte/serasaacpv2.cer"
+                        href="http://publicacao.certificadodigital.com.br/suporte/serasaacpv2.cer">Serasa
+                        Autoridade Certificadora Principal v2</a></li>
+                    <li><a title="http://publicacao.certificadodigital.com.br/suporte/serasacdv2.cer"
+                        href="http://publicacao.certificadodigital.com.br/suporte/serasacdv2.cer">Serasa
+                        Certificadora Digital v2</a> </li>
+                </ul>
+            </div>
+            <br />
+            <div>
+                <h3 style="font-size: 13px">
+                    Sistema Operacional</h3>
+                <ul class="lista-destaque">
+                    <li>Se o sistema operacional for Windows, confirme se a versão instalada é Windows XP
+                        com Service Pack 3 ou superior;</li>
+                    <li>Se o sistema operacional NÃO for Windows, verifique junto ao fornecedor se o sistema
+                        suporta o uso da função de hash SHA-2.</li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            Retornar para a <a href="/" title="Retornar à página inicial do e-CAC"
+                target="_top">página inicial do FintelISS</a>.</p>
+    </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <nobr>::: Desenvolvimento: Fintel Tecnologia ::: 2010</nobr>
+        &nbsp;&nbsp;
+    </div>
+    
+
+</body>
+</html>
